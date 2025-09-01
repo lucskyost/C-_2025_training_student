@@ -65,12 +65,11 @@ int main() {
 //   x == y: true
 //   x != y: false
 
-// #include <iostream>
-// using namespace std;
+#include <iostream>
+using namespace std;
 
 int main() {
     int x, y;
-    cout << "Nhap x, y: ";
     cin >> x >> y;
 
     cout << "x > y  : " << (x > y) << endl;
@@ -107,9 +106,7 @@ using namespace std;
 
 int main() {
     int n;
-    cout << "Nhap n: ";
     cin >> n;
-
     cout << (n % 2 == 0 ? "Chan" : "Le") << endl;
 
     return 0;
